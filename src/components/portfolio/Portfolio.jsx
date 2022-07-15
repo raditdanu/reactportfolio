@@ -5,9 +5,16 @@ import IMG2 from '../../assets/zetcommerce.png'
 import IMG3 from '../../assets/zetpizza.png'
 import IMG4 from '../../assets/html.png'
 import IMG5 from '../../assets/old-portfolio.png'
-import IMG6 from '../../assets/3d-animation.png'
+import IMG6 from '../../assets/zashboard.png'
 
 const data = [
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Dashboard',
+    github: 'https://github.com/raditdanu/zetdashboard',
+    demo: 'https://zetdashboard.netlify.app/'
+  },
   {
     id: 1,
     image: IMG1,
@@ -42,13 +49,6 @@ const data = [
     title: 'My Old Portfolio',
     github: 'https://github.com/raditdanu/raditdanu.github.io',
     demo: 'https://raditdanu.github.io/'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'HTML 3D Animation',
-    github: 'https://github.com/raditdanu/3d-animation',
-    demo: 'https://raditdanu.github.io/3d-animation/'
   }
 ]
 
