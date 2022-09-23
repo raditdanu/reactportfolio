@@ -73,7 +73,7 @@ const Services = () => {
         {/*  */}
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>UX Researcher</h3>
           </div>
 
           <ul className='service__list'>

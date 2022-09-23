@@ -3,11 +3,19 @@ import './portfolio.css'
 import IMG1 from '../../assets/crypto.png'
 import IMG2 from '../../assets/zetcommerce.png'
 import IMG3 from '../../assets/zetpizza.png'
-import IMG4 from '../../assets/html.png'
+import IMG4 from '../../assets/KPI.png'
 import IMG5 from '../../assets/old-portfolio.png'
 import IMG6 from '../../assets/zashboard.png'
+import KPI from '../../assets/KPI Dashboard Portfolio.pdf'
 
 const data = [
+  {
+    id: 4,
+    image: IMG4,
+    title: 'UX KPI Dashboard',
+    github: KPI,
+    demo: 'https://www.behance.net/gallery/153327251/Portofolio'
+  },
   {
     id: 6,
     image: IMG6,
@@ -37,13 +45,6 @@ const data = [
     demo: 'https://zetpizza.netlify.app/'
   },
   {
-    id: 4,
-    image: IMG4,
-    title: 'HTML Ecommerce',
-    github: 'https://github.com/raditdanu/htmleccommerce',
-    demo: 'https://raditdanu.github.io/htmleccommerce/'
-  },
-  {
     id: 5,
     image: IMG5,
     title: 'My Old Portfolio',
@@ -68,7 +69,7 @@ const portfolio = () => {
           </div>
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
-            <a href={github} className='btn' target='_blank'>Github</a>
+            <a href={github} className='btn' target='_blank'>Repository</a>
             <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>
